@@ -97,6 +97,17 @@ h2 {
       padding-block: .3rem;
     }
 
+    .moonFrame{
+      background-image: url(../assets/stars.gif);
+      border-radius: var(--smol-border-radius);
+      a {
+        color: unset;
+      }
+
+     
+    }
+
+
     
 
       @media (min-width: 833px) {
@@ -137,11 +148,14 @@ h2 {
     }
 
     article {
-      max-inline-size: 150px;
-      
       border-block: 3px solid var(--toy-border);
       border-inline-end: 3px solid var(--toy-border);
       border-radius: 0 var(--smol-border-radius) var(--smol-border-radius) 0;
+    }
+
+    p{
+      
+      max-inline-size: 150px;
     }
   }
 
